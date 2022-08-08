@@ -35,4 +35,17 @@ keychain = online_store['keychain']
 tshirt = online_store['tshirt']
 bottle = online_store['bottle']
 print(online_store)
+totalkey = choicekey * keychain
+totaltshirt = choicetshirt * tshirt
+totalbottle = choicebottle * bottle
+grandtotal = totalkey + totaltshirt + totalbottle
+print("The total key price is:", totalkey)
+print("The total bottle price is:", totalbottle)
+print("The total tshirt price is:", totaltshirt)
+print("the total price for all is",grandtotal)
+
+
+
+
+#Discount depend on Price
 
